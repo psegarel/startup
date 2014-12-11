@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" ng-app="startup">
+<html lang="en" class="ng-cloak" ng-app="startup">
 	<head>
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -19,10 +19,6 @@
 		  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 		<![endif]-->
 
-
-		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-		<script src="jquery/1.11.1/jquery.min.js"></script>
-		<script src="angular/angular.min.js"></script>	
 			
 	</head>
 	<body>
@@ -31,9 +27,20 @@
 				<h1>{{ "Hello, " + "Angular"}}</h1>
 			</div>
 		</div>
+
+
+		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+		<script src="jquery/1.11.1/jquery.min.js"></script>
+
+		<!-- Angular libraries  -->		
+		<script src="js/angular/angular.min.js"></script>
+		<script src="js/angular/angular-route.min.js"></script>
 		
-		<!-- Include all compiled plugins (below), or include individual files as needed -->
-		<script src="bootstrap/js/bootstrap.min.js"></script>
+		<!-- Include all compiled plugins (below), or include individual files as needed 
+		<script src="js/bootstrap/bootstrap.min.js"></script>-->
+		<script src="js/bootstrap/ui-bootstrap-tpls.min.js"></script>
+			
+		<!-- Angular App -->	
 		<script src="js/startup.js"></script>	
 	</body>
 </html>

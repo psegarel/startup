@@ -1,5 +1,8 @@
 ( function()
 {
-	var app = angular.module('startup' , []);
+	var app = angular.module('startup' , 
+		[	'ngRoute',
+			'ui.bootstrap'
+	]);
 }
 )();
