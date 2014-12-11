@@ -2,7 +2,9 @@
 {
 	var app = angular.module('startup' , 
 		[	'ngRoute',
-			'ui.bootstrap'
+			'ui.bootstrap',
+			// Uncommment for images-loaded suppport, don't forget to uncomment the scripts!
+			//'angular-images-loaded'
 	]);
 	
 	app.config( function($routeProvider , $locationProvider ){
