@@ -1,4 +1,4 @@
-( function()
+define( function()
 {
 	var app = angular.module('startup' , [
 		'ui.router'
@@ -25,4 +25,4 @@
 		console.log(jQuery);
 	});
 }
-)();
+);
